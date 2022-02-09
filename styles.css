@@ -1,19 +1,25 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0px;
 }
 
 body {
   font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 10px;
 }
 
 .scene {
   border: 1px solid #ccc;
-  margin: 40px 0;
   position: relative;
   width: 210px;
   height: 140px;
-  margin: 80px auto;
+  margin: 150px auto;
   perspective: 1000px;
 }
 
@@ -98,6 +104,7 @@ body {
 }
 
 .carousel-options {
+  padding: 50px;
   text-align: center;
   position: relative;
   z-index: 2;
